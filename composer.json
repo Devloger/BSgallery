@@ -1,0 +1,19 @@
+{
+  "name": "gallery/package_name",
+  "description": "My gallery funtime",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Krystian Bogucki",
+      "email": "devloger22@gmail.com"
+    }
+  ],
+  "autoload":
+  {
+    "psr-4":
+    {
+      "app\\": "app/"
+    }
+  }
+}
